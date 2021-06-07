@@ -1,6 +1,8 @@
 # Sid-o-cientista
 projeto da unity
 
+Douglas e Bruno.P | jogos 2
+
 O projeto realizado durante as aulas de LP contém uma cena com os elementos citados na tarefa que foram:
 -Tamanho (esfera dentro da caixa)
 -Rotação (engrenagens e personagem)
