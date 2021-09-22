@@ -7,7 +7,6 @@ public class move : MonoBehaviour
     float _velocidadeTras;
     float _velocidadeGirar;
     //Metodo Start e executado uma unica vez, quando o script e executado.
-    Vector3 m;
     void Start()
     {
         _velocidadeFrente = 30;
@@ -18,7 +17,7 @@ public class move : MonoBehaviour
     //Medodo Update e executado a cada Frame
     void Update()
     {
-        if (Input.GetKey("w"))
+        if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(0, 0, (_velocidadeFrente * Time.deltaTime));
         }
